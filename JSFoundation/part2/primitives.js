@@ -24,7 +24,16 @@ let myString = "hello";
 let myStringOne = "Hola";
 let userName = "livanshu"
 
-let oldGreet = myString + "livanshu";
+let oldGreet = myString + " livanshu";
 console.log(oldGreet);
 
-let greetMessage = `Hello`;
+let greetMessage = `Hello ${userName} !`;
+console.log(greetMessage);
+
+let demoOne = `value is ${2 * 2}`;
+console.log(demoOne);
+
+let sm1 = Symbol("livanshu");
+let sm2 = Symbol("livanshu");
+console.log(sm1 == sm2);
+console.log(sm1);
